@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+#but{
+    color: #1977cc;
+}
+
+#but:hover {
+    color: #1977cc;
+    font-weight: lighter;
+}
+
+#use:hover {
+    color: #1977cc;
+    font-weight: lighter;
+}
+
+.bling{
+    background-image: url(img/hero-bg.jpg);
+    margin-top: 100px;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 50px;
+    top: 0;
+}
+
+#hov:hover {
+    background-color: blue;
+    
+}
+
+#wet{
+    background-color: white;
+    color: #1977cc;
+    font-size: 600;
+}
+  
+#wet:hover {
+    color: white;
+    background-color: #1977cc;
+    font-weight: 600;
+}
+
+.gallery-img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+  
+  .gallery-img:hover {
+    transform: scale(1.05);
+}
+
+
+  #bog {
+    border-radius: 40px;
+}
+  
+  #bog:hover {
+    outline-color: #1977cc;
+}
+  
+  
+.footer-link {
+    color: white;
+}
+  .footer-link a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#now {
+    color: gray;
+    font-weight: 500;
+  }
+  
+#now:hover {
+    color: #1977cc;
+}
+  
+.cir{
+    padding: 15px;
+    gap: 5px;
+    border: 1px solid gray;
+    background-color: rgb(206, 189, 189);
+    border-radius: 100%;
+}
+  
+  
+
